@@ -1,0 +1,44 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:calibri;
+    height:100vh;
+    display:flex;
+    align-items:center;
+}
+
+.all{
+    width:500px;
+    margin:auto;
+    text-align:center;
+    position: relative;
+    background-color:#e5e5e5;
+    padding:10px;
+}
+.testimo .left,.testimo .right{
+    position:absolute;
+    top:30px;
+    padding:10px 25px;
+}
+.left{
+    left:-30px;
+}
+.right{
+    right:-35px;
+}
+.testimo img{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+.testimo p{
+    margin-bottom:6px;
+}
+.testimo span{
+    display:block;
+    margin-bottom:6px;
+}
